@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>E-Bank</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="./Image2/image1.jfif">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+  <p>
+    E-Bank
+  </p>
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="Registration.html">Register</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<h3>Contact</h3>
+<h4>E-Bank</E-educate><br>
+Online Platform</h4>
+Head office at Lucknow
+<pre>
+Phone : +900xxxxxxx<br>
+Email :  eBank@gmail.com<br>
+Facebook : http://facebook.E-Bank<br>
+</pre>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are a premium user please enter your premium reg id:</strong>
+<center>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+</center>
+<hr>
+<footer class="mainFooter">
+   <p>Thank You</p>
+  <center>
+  <a href="">Facebook</a>
+  <a href="">Twitter</a>
+  <a href="">Youtube</a>
+  </center>
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
